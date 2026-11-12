@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio of Fidel Yatich, an Information Security and Forensics student with skills in data and business intelligence.">
+  <title>Fidel Yatich | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Sora:wght@600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <a class="brand" href="#home">Fidel Yatich</a>
+  <nav aria-label="Main navigation">
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About me</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <!-- HOME -->
+  <section id="home" class="hero">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <h1>I turn data into stories.</h1>
+        <p>I'm Fidel Yatich. I am studying Information Security and Forensics and I hold a Certificate in Data Science and Analytics. This website is part of my journey to improve my chances of employment and to bring my dream of touring the world and being financially free a step closer.</p>
+        <p>
+          <a class="btn" href="#projects">See my projects</a>
+          <a class="btn btn-light" href="#contact">Get in touch</a>
+        </p>
+      </div>
+      <img class="profile-pic" src="images/profile.jpg" alt="Profile picture of Fidel Yatich" width="320" height="320">
+    </div>
+    <div class="skyline" aria-hidden="true">
+      <span style="--h:35%"></span><span style="--h:55%"></span><span style="--h:42%"></span><span style="--h:70%"></span><span style="--h:60%"></span><span style="--h:85%"></span><span style="--h:65%"></span><span style="--h:100%"></span><span style="--h:78%"></span><span style="--h:90%"></span><span style="--h:58%"></span><span style="--h:72%"></span><span style="--h:48%"></span><span style="--h:62%"></span>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <h2>About me</h2>
+    <div class="two-col">
+      <div class="panel">
+        <h3>Education</h3>
+        <ol class="timeline">
+          <li><strong>Primary school</strong><br>Moi Educational Centre. Scored 398 marks in KCPE.</li>
+          <li><strong>Secondary school</strong><br>Moi Forces Academy. Graduated with a mean grade of B-.</li>
+          <li><strong>Certificate in Data Science and Analytics</strong><br>Strathmore University</li>
+          <li><strong>Bachelor's degree in Information Security and Forensics</strong><br>Currently pursuing</li>
+        </ol>
+      </div>
+      <div class="panel panel-accent">
+        <h3>Personal interests</h3>
+        <ul class="interests">
+          <li>Touring the world</li>
+          <li>Building financial freedom</li>
+          <li>Working with data and telling stories with it</li>
+          <li>Creating short video clips</li>
+        </ul>
+        <p>My goal is to build a career where I can use data and technology to solve real problems, earn well and see the world.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section alt">
+    <h2>Skills</h2>
+    <p class="lead">The skills I bring to data, technology and content work.</p>
+    <div class="table-wrap">
+      <table>
+        <caption>My technical skills</caption>
+        <thead>
+          <tr><th scope="col">Skill</th><th scope="col">What I use it for</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Data modelling</td><td>Organising data into clear structures and relationships</td></tr>
+          <tr><td>Business Intelligence</td><td>Turning business data into insights for decisions</td></tr>
+          <tr><td>Data visualization and storytelling</td><td>Presenting findings in charts and dashboards that people understand</td></tr>
+          <tr><td>Vibe coding</td><td>Building working tools quickly with AI-assisted coding</td></tr>
+          <tr><td>Clipping</td><td>Cutting long videos into short, shareable clips</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <article class="project">
+        <img src="images/project1.svg" alt="Illustration of a bar chart with a trend line" width="400" height="220">
+        <span class="badge done">Completed</span>
+        <h3>Predicting KCSE Performance, Class of 2026</h3>
+        <p>A Python analysis of a KCSE dataset. I cleaned missing values, fixed inconsistent text and capped outliers, then explored how factors such as study hours and attendance relate to results.</p>
+        <a class="btn btn-small" href="projects/Kcse_Performance_Analysis.ipynb">View notebook</a>
+      </article>
+      <article class="project">
+        <img src="images/project2.svg" alt="Illustration of a dashboard with tiles and a donut chart" width="400" height="220">
+        <span class="badge done">Completed</span>
+        <h3>KCSE Performance Dashboard</h3>
+        <p>A Power BI report on KCSE performance that turns the cleaned data into visuals for business intelligence and storytelling. Open the file in Power BI Desktop.</p>
+        <a class="btn btn-small" href="projects/KCSE_Performance.pbix" download>Download Power BI file</a>
+      </article>
+      <article class="project">
+        <img src="images/project3.svg" alt="Illustration of a multi-page business dashboard layout" width="400" height="220">
+        <span class="badge done">Completed</span>
+        <h3>CampusEats Dashboard</h3>
+        <p>A three-page Power BI dashboard for a food delivery business. It has a home page, a Sales and Demand page with bar, line, treemap and donut charts, and an Operations page with a scatter chart and table.</p>
+        <a class="btn btn-small" href="projects/CampusEats_Dashboard.pbix" download>Download Power BI file</a>
+      </article>
+      <article class="project">
+        <img src="images/project4.svg" alt="Illustration of sound waves for a music listening analysis" width="400" height="220">
+        <span class="badge wip">In progress</span>
+        <h3>Spotify Listening Analysis</h3>
+        <p>An analysis of my own Spotify listening: which artists and songs I play most, when I listen, and how my habits change over time. Still being built.</p>
+        <span class="btn btn-small btn-disabled" aria-disabled="true">Coming soon</span>
+      </article>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section alt">
+    <h2>Contact</h2>
+    <div class="two-col">
+      <div>
+        <p class="lead">Have a question or an opportunity? Send me a message.</p>
+        <p>Email: <a href="mailto:fidelyatich@gmail.com">fidelyatich@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/fidelyatich-cyber" target="_blank" rel="noopener">github.com/your-username</a></p>
+        <p>Phone: <a href="tel:+254745143802">0745143802</a></p>
+      </div>
+      <form id="contact-form" action="mailto:fidelyatich@gmail.com" method="post" enctype="text/plain">
+        <label for="name">Your name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Your email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="topic">Topic</label>
+        <select id="topic" name="topic">
+          <option>General question</option>
+          <option>Project collaboration</option>
+          <option>Internship or job</option>
+        </select>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit" class="btn">Send message</button>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>&copy; 2026 Fidel Yatich. Built with HTML and CSS, hosted on GitHub Pages.</p>
+  <p><a href="#home">Back to top</a></p>
+</footer>
+
+</body>
+</html>
